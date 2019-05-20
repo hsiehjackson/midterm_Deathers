@@ -6,7 +6,7 @@ const app = express();
 const bodyParser = require("body-parser");
 const path = require("path");
 const cors = require("cors");
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 app.use(bodyParser.json());
 app.use(cors());
@@ -14,10 +14,20 @@ app.use(cors());
   
 app.use("/api",require("./server/routes/TodosApi"));
 
-app.use(express.static("public"));
+let DIR, SEND;
+console.log('App Environment:',process.env.ENV);
+if (process.env.ENV == "development"){
+  DIR = "public";
+  SEND = "./public/index.html";
+}
+else if (process.env.ENV == "deploy"){
+  DIR = "build";
+  SEND = "./build/index.html";
+}
 
+app.use(express.static(DIR));
 app.get("*", (req, res) =>
-  res.sendFile(path.join(__dirname, "./public/index.html"))
+  res.sendFile(path.join(__dirname, SEND))
 );
 
 app.listen(port, () =>
