@@ -20,7 +20,7 @@ if (process.env.ENV == "development"){
   DIR = "public";
   SEND = "./public/index.html";
 }
-else if (process.env.ENV == "deploy"){
+else if (process.env.ENV == "deployment"){
   DIR = "build";
   SEND = "./build/index.html";
 }
