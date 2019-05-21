@@ -18,7 +18,9 @@ class WeatherForecastDay extends React.Component {
 		}
 		else{
 			var today = new Date();
-			time = today.getHours() + ":" + today.getMinutes();
+			let mm = today.getMinutes();
+			if (mm < 10){mm = '0'+mm;}
+			time = today.getHours() + ":" + mm;
 		}
 		var temp_min = this.props.main.temp_min;
 		var temp_max = this.props.main.temp_max;
