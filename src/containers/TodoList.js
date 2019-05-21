@@ -160,7 +160,11 @@ class TodoList extends React.Component {
         }
         let deadtodos = [];
         if (this.state.todos.length!==0){
-            let nocompletetodos = this.state.todos.filter(todo => !todo.complete && new Date(todo.date) >= new Date());
+            let nocompletetodos = this.state.todos.filter(todo => {
+                let todo_date = new Date(todo.date);
+                todo_date.setHours( todo_date.getHours() + 16 );
+                let today_date = new Date();
+                return (!todo.complete && todo_date >= today_date)});
             if (nocompletetodos.length!==0){
                 deadtodos = nocompletetodos.filter(todo => todo.date === nocompletetodos[0].date);
             }

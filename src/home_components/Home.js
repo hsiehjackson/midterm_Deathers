@@ -7,7 +7,7 @@ class Home extends Component {
         return (<li className="home__item" key={todo._id}>{todo.text}</li>);
     }
     render() {
-        let tododate = new Date();
+        let tododate;
         if (this.props.todos.length !== 0) {
             tododate = new Date(this.props.todos[0].date);
             tododate.setHours( tododate.getHours() + 16 );
