@@ -56,6 +56,10 @@ Reference
 ---
 * Icons
 https://material.io/tools/icons/
+* OpenWeathermap
+https://openweathermap.org/api
+* GooglemapSearchbox
+https://developers.google.com/maps/documentation/javascript/places-autocomplete
 * React countdown timer app
 https://github.com/Tosunami/react-date-countdown-timer
 * React weather app
