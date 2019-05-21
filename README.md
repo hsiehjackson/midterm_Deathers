@@ -28,7 +28,7 @@ How to use?
 ---
 Home           |  Weather
 :-------------------------:|:-------------------------:
-![](https://i.imgur.com/0R8Xp82.jpg)  |  ![](https://i.imgur.com/n6G7v30.jpg)
+<img src="https://i.imgur.com/0R8Xp82.jpg" alt="drawing" width="200"/>  |  ![](https://i.imgur.com/n6G7v30.jpg)
 
 Deadline          |  Calendar
 :-------------------------:|:-------------------------:
