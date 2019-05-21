@@ -28,11 +28,11 @@ How to use?
 ---
 Home           |  Weather
 :-------------------------:|:-------------------------:
-![](https://i.imgur.com/0R8Xp82.jpg =1200x200)  |  ![](https://i.imgur.com/n6G7v30.jpg =1200x200)
+![](https://i.imgur.com/0R8Xp82.jpg)  |  ![](https://i.imgur.com/n6G7v30.jpg)
 
 Deadline          |  Calendar
 :-------------------------:|:-------------------------:
-![](https://i.imgur.com/FaSGnKL.jpg =1200x200)  | ![](https://i.imgur.com/IkTQ3au.jpg =1200x200)
+![](https://i.imgur.com/FaSGnKL.jpg)  | ![](https://i.imgur.com/IkTQ3au.jpg)
 
 * Home：View the most urgent and uncompleted deadlines
 * Weather：View the weather forecast in given location
@@ -71,7 +71,8 @@ https://youtu.be/PBTYxXADG_k
 
 Contribution
 ---
-基本上先自行研究如何將之前作業完成有後端的todolist，再增加deadlines可以排序。接著先參考別人已完成的application，包含實作calendar，新增coundown，以及weather等等，再以todolist的框架下新增這些額外功能。原則就是看懂別人的方法實作出來，更改css符合設計，增加後端儲存資訊，最後**Deathers**就誕生了。
+基本上先自行研究如何拿之前作業，完成有後端的todolist，再增加deadlines可以排序。接著先看別人已完成的application，包含calendar，coundown-timer，以及weather等等，再以todolist的框架下新增這些額外功能。原則就是看懂別人的方法，我的project上實作出來，更改css符合設計，增加後端儲存資訊，最後**Deathers**就誕生了。
+
 
 
 Future Work
