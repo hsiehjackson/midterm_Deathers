@@ -26,7 +26,7 @@ class Header extends Component {
           </li>
           <li className="todo-app__navitem">
             <NavLink 
-                to="/list" 
+                to="/deadline" 
                 activeClassName="selected"
                 exact>
             {<MaterialIcon icon="list"/>}

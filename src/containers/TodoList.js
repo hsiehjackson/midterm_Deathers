@@ -188,7 +188,7 @@ class TodoList extends React.Component {
                         tempType={this.state.tempType}
                         updateTempType={this.updateTempType}/>
                 }/>
-                <Route path="/list" component={() =>
+                <Route path="/deadline" component={() =>
                     <div className="todo-app__home">
                         <Section 
                             todos={todos}
