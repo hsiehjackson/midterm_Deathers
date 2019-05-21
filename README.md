@@ -28,11 +28,9 @@ How to use?
 ---
 Home           |  Weather
 :-------------------------:|:-------------------------:
-<img src="https://i.imgur.com/0R8Xp82.jpg" alt="drawing" width="1200" height="300"/>  | <img src="https://i.imgur.com/n6G7v30.jpg" alt="drawing" width="1200" height="300"/>
-
+<img src="https://i.imgur.com/0R8Xp82.jpg" alt="drawing" width="1200" height="250"/>  | <img src="https://i.imgur.com/n6G7v30.jpg" alt="drawing" width="1200" height="250"/>
 Deadline          |  Calendar
-:-------------------------:|:-------------------------:
-![](https://i.imgur.com/FaSGnKL.jpg)  | ![](https://i.imgur.com/IkTQ3au.jpg)
+<img src="https://i.imgur.com/FaSGnKL.jpg" alt="drawing" width="1200" height="250"/>  | <img src="https://i.imgur.com/IkTQ3au.jpg" alt="drawing" width="1200" height="250"/>
 
 * Home：View the most urgent and uncompleted deadlines
 * Weather：View the weather forecast in given location
