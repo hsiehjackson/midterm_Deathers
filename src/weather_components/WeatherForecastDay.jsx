@@ -9,7 +9,12 @@ class WeatherForecastDay extends React.Component {
 		var time;
 		if (this.props.dt_txt){
 			time = this.props.dt_txt.split(" ")[1].split(":");
-			time = time[0] + ":" + time[1];
+			let newhour = (parseInt(time[0])+8);
+			let split_date;
+			if (newhour > 24){
+				newhour = newhour - 24;
+			}
+			time =  newhour + ":" + time[1];
 		}
 		else{
 			var today = new Date();

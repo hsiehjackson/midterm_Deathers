@@ -26,6 +26,8 @@ class Weather extends React.Component {
         return (<h3 className="text-center">Fetching Weather...</h3>);
       } 
       else if (this.props.today && this.props.location) {
+        console.log(this.props.today)
+        console.log(this.props.forecast)
         let today = this.props.today;
         let today_date = new Date();
         let hh = today_date.getHours();
@@ -34,7 +36,7 @@ class Weather extends React.Component {
         let today_forecast = this.props.forecast.filter((day) => 
           {
             if (((day.dt_txt.split(" ")[0].split("-")[2] > dd) 
-                || ((parseInt(day.dt_txt.split(" ")[1].split(":")[0]) > hh) && (day.dt_txt.split(" ")[0].split("-")[2] == dd)))
+                || ((parseInt(day.dt_txt.split(" ")[1].split(":")[0])+8 > hh) && (day.dt_txt.split(" ")[0].split("-")[2] == dd)))
                 && count < 5){
               count = count + 1;
               return true;
